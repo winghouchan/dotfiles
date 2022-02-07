@@ -30,3 +30,8 @@ fi
 
 # Install dependencies listed in Brewfile
 brew bundle install
+
+# Stow the contents of each directory to the home directory
+for directory in */; do
+  stow -t ~/ $directory
+done
