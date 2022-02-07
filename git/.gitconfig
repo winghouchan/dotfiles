@@ -1,0 +1,8 @@
+[user]
+        name = Wing-Hou Chan
+        email = wing@wii.ng
+        signingkey = D75D066F11355330
+[init]
+        defaultBranch = main
+[commit]
+        gpgsign = true
