@@ -2,6 +2,7 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 brew "mas"
+brew "stow"
 
 # Browsers
 cask "google-chrome"
