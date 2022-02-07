@@ -12,3 +12,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 for directory in */; do
   stow -t ~/ $directory
 done
+
+# Install Visual Studio Code extensions
+while IFS= read -r extension || [[ -n "$extension" ]]; do
+  code --install-extension $extension
+done <VSCodeExtensionFile
