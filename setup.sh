@@ -17,3 +17,10 @@ done
 while IFS= read -r extension || [[ -n "$extension" ]]; do
   code --install-extension $extension
 done <VSCodeExtensionFile
+
+# Set Fish as the default shell
+fish_home=$(command -v fish)
+if [[ $fish_home ]]; then
+  echo $fish_home | sudo tee -a /etc/shells
+  chsh -s $fish_home
+fi 
