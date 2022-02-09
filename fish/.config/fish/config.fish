@@ -4,9 +4,9 @@ if status is-interactive
         source (/opt/homebrew/bin/brew shellenv | psub)
     end
 
-    # Install and run Fish package manager if not installed
+    # Install and run Fish package manager and plugins if not installed
     if not functions -q fisher
-        curl -sL https://git.io/fisher | source; and fisher install jorgebucaran/fisher
+        curl -sL https://git.io/fisher | source; and fisher update
     end
 
     # Install Fast Node Manager if not installed
