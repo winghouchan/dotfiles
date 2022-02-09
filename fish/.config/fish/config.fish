@@ -1,4 +1,9 @@
 if status is-interactive
+    # Set up Homebrew environment if Homebrew is installed but not set up
+    if not command -v brew && test -x /opt/homebrew/bin/brew
+        source (/opt/homebrew/bin/brew shellenv | psub)
+    end
+
     # Install and run Fish package manager if not installed
     if not functions -q fisher
         curl -sL https://git.io/fisher | source; and fisher install jorgebucaran/fisher
