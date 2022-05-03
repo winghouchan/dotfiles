@@ -1,6 +1,6 @@
 if status is-interactive
     # Set up Homebrew environment if Homebrew is installed but not set up
-    if ! command -v brew && test -x /opt/homebrew/bin/brew
+    if ! command -v brew &> /dev/null && test -x /opt/homebrew/bin/brew
         /opt/homebrew/bin/brew shellenv | source
     end
 
@@ -10,7 +10,7 @@ if status is-interactive
     end
 
     # Install Fast Node Manager if not installed
-    if ! command -v fnm
+    if ! command -v fnm &> /dev/null
         curl -fsSL https://fnm.vercel.app/install | bash
     end
 end
