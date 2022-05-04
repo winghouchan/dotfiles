@@ -13,6 +13,9 @@ if status is-interactive
     if ! command -v fnm &> /dev/null
         curl -fsSL https://fnm.vercel.app/install | bash
     end
+
+    # Set up rbenv
+    rbenv init - fish | source
 end
 
 # Set Android environment variables
