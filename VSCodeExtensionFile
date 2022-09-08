@@ -8,6 +8,7 @@ esbenp.prettier-vscode
 fauna.fauna
 flowtype.flow-for-vscode
 GraphQL.vscode-graphql
+mads-hartmann.bash-ide-vscode
 ms-azuretools.vscode-docker
 ms-vscode-remote.remote-containers
 ms-vscode.cpptools
