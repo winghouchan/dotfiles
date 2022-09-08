@@ -9,6 +9,7 @@ fauna.fauna
 flowtype.flow-for-vscode
 GraphQL.vscode-graphql
 mads-hartmann.bash-ide-vscode
+mariomatheu.syntax-project-pbxproj
 ms-azuretools.vscode-docker
 ms-vscode-remote.remote-containers
 ms-vscode.cpptools
