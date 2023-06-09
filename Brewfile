@@ -40,4 +40,5 @@ cask "1password"
 cask "notion"
 
 # Utilities
+brew "imagemagick"
 mas "NordVPN", id: 905953485
