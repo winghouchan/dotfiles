@@ -22,3 +22,7 @@ end
 set --export ANDROID $HOME/Library/Android;
 set --export ANDROID_HOME $ANDROID/sdk;
 set --export ANDROID_SDK_ROOT $ANDROID/sdk;
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
