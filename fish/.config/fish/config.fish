@@ -26,3 +26,6 @@ set --export ANDROID_SDK_ROOT $ANDROID/sdk;
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# pure prompt configs
+set --universal pure_enable_single_line_prompt true
