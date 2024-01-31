@@ -45,4 +45,5 @@ cask "obsidian"
 
 # Utilities
 brew "imagemagick"
+cask "swish"
 mas "NordVPN", id: 905953485
