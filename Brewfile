@@ -41,6 +41,7 @@ cask "steam"
 # Productivity
 cask "1password"
 cask "notion"
+cask "obsidian"
 
 # Utilities
 brew "imagemagick"
