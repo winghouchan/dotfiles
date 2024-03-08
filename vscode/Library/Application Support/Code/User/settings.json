@@ -19,12 +19,13 @@
     ".env": "plaintext"
   },
   "files.exclude": {
-      "**/.classpath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/.factorypath": true
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Material Theme Ocean"
+  "workbench.colorTheme": "Material Theme Ocean",
+  "git.enableCommitSigning": true
 }
