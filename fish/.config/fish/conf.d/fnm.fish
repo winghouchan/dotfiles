@@ -1,2 +1,3 @@
-# Configure fnm (Fast Node Manager) for Fish
-fnm env --use-on-cd | source
+# fnm
+set PATH "/Users/wing/.fnm" $PATH
+/opt/homebrew/bin/fnm env | source
