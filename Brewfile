@@ -32,6 +32,7 @@ cask "graphql-playground"
 cask "hyper"
 cask "postman"
 cask "visual-studio-code"
+mas "Sequel Ace", id: 1518036000
 mas "Xcode", id: 497799835
 
 # Entertainment
