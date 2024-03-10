@@ -13,11 +13,6 @@ for directory in */; do
   stow -t ~/ $directory
 done
 
-# Install Visual Studio Code extensions
-while IFS= read -r extension || [[ -n "$extension" ]]; do
-  code --install-extension $extension
-done <VSCodeExtensionFile
-
 # Set Fish as the default shell
 fish_home=$(command -v fish)
 if [[ $fish_home ]]; then
