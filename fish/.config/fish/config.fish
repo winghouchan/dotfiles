@@ -8,9 +8,6 @@ if status is-interactive
     if ! functions -q fisher
         curl -sL https://git.io/fisher | source && fisher update
     end
-
-    # Set up rbenv
-    rbenv init - fish | source
 end
 
 # Set Android environment variables
