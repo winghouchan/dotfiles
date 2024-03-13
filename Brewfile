@@ -1,6 +1,5 @@
 # Dependencies
 tap "homebrew/bundle"
-tap "oven-sh/bun"
 brew "mas"
 brew "stow"
 
@@ -18,7 +17,6 @@ mas "Affinity Photo", id: 824183456
 mas "Affinity Designer", id: 824171161
 
 # Developer
-brew "bun"
 brew "deno"
 brew "fish"
 brew "git"
