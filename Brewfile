@@ -56,6 +56,7 @@ vscode "redhat.java"
 vscode "shopify.ruby-lsp"
 vscode "skyapps.fish-vscode"
 vscode "tamasfe.even-better-toml"
+vscode "vscjava.vscode-gradle"
 vscode "zxh404.vscode-proto3"
 
 # Entertainment
