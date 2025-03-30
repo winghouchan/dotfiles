@@ -27,11 +27,11 @@ brew "ruby-build"
 brew "watchman"
 cask "android-studio"
 cask "bruno"
+cask "beekeeper-studio"
 cask "flipper"
 cask "graphql-playground"
 cask "hyper"
 cask "visual-studio-code"
-mas "Sequel Ace", id: 1518036000
 mas "Transporter", id: 1450874784
 mas "Xcode", id: 497799835
 vscode "bradlc.vscode-tailwindcss"
