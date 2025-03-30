@@ -67,6 +67,9 @@ vscode "zxh404.vscode-proto3"
 cask "spotify"
 cask "steam"
 
+# Photo & Video
+mas "iMovie", id: 408981434
+
 # Productivity
 cask "1password"
 cask "notion"
