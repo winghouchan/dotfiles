@@ -16,7 +16,8 @@
   "editor.rulers": [80],
   "editor.tabSize": 2,
   "files.associations": {
-    ".env": "plaintext"
+    ".env": "plaintext",
+    ".tool-versions": "plaintext"
   },
   "files.exclude": {
     "**/.classpath": true,
