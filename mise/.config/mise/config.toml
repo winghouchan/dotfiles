@@ -2,6 +2,7 @@
 bun = "latest"
 cmake = "3"
 java = "17"
+maestro = "latest"
 ninja = "1"
 node = "lts"
 usage = "latest"

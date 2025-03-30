@@ -1,6 +1,5 @@
 # Dependencies
 tap "homebrew/bundle"
-tap "mobile-dev-inc/tap"
 brew "mas"
 brew "stow"
 
@@ -21,7 +20,6 @@ mas "Affinity Designer", id: 824171161
 # Developer
 brew "fish"
 brew "git"
-brew "maestro"
 brew "mise"
 brew "openssh"
 brew "ranger"
