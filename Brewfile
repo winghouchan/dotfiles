@@ -10,6 +10,7 @@ cask "firefox"
 # Communication
 cask "slack"
 cask "zoom"
+mas "WhatsApp", id: 310633997
 
 # Design
 cask "figma"
