@@ -58,6 +58,7 @@ vscode "skyapps.fish-vscode"
 vscode "tamasfe.even-better-toml"
 vscode "unifiedjs.vscode-mdx"
 vscode "vscjava.vscode-gradle"
+vscode "zobo.php-intellisense"
 vscode "zxh404.vscode-proto3"
 
 # Entertainment
