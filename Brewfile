@@ -21,6 +21,7 @@ mas "Affinity Designer", id: 824171161
 brew "fish"
 brew "git"
 brew "mise"
+brew "openjdk@17"
 brew "openssh"
 brew "ranger"
 brew "ruby-build"
