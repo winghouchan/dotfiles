@@ -18,9 +18,11 @@ mas "Affinity Photo", id: 824183456
 mas "Affinity Designer", id: 824171161
 
 # Developer
+brew "cmake"
 brew "fish"
 brew "git"
 brew "mise"
+brew "ninja"
 brew "openjdk@17"
 brew "openssh"
 brew "ranger"
