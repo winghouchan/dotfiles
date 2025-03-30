@@ -1,5 +1,6 @@
 # Dependencies
 tap "homebrew/bundle"
+tap "mobile-dev-inc/tap"
 brew "mas"
 brew "stow"
 
@@ -21,6 +22,7 @@ mas "Affinity Designer", id: 824171161
 brew "cmake"
 brew "fish"
 brew "git"
+brew "maestro"
 brew "mise"
 brew "ninja"
 brew "openjdk@17"
