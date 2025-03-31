@@ -6,6 +6,7 @@ brew "stow"
 # Browsers
 cask "google-chrome"
 cask "firefox"
+cask "tor-browser"
 
 # Communication
 cask "slack"
