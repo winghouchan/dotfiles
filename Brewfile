@@ -19,6 +19,7 @@ mas "Affinity Photo", id: 824183456
 mas "Affinity Designer", id: 824171161
 
 # Developer
+brew "act"
 brew "fish"
 brew "git"
 brew "mise"
