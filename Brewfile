@@ -20,6 +20,7 @@ mas "Affinity Designer", id: 824171161
 
 # Developer
 brew "act"
+brew "dnsmasq"
 brew "fish"
 brew "git"
 brew "mise"
