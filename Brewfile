@@ -84,7 +84,7 @@ mas "Pages", id: 409201541
 # Utilities
 brew "imagemagick"
 cask "swish"
-mas "NordVPN", id: 905953485
+mas "Surfshark", id: 1437809329
 
 # Safari Extensions
 mas "1Password for Safari", id: 1569813296
